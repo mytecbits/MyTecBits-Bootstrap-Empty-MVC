@@ -27,6 +27,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -92,16 +93,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\jquery-3.0.0.min.js" />
-    <Content Include="js\npm.js" />
+    <Content Include="js\jquery-3.3.1.min.js" />
+    <Content Include="js\popper.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -115,17 +119,19 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="css\bootstrap-theme.css.map" />
-    <Content Include="css\bootstrap-theme.min.css.map" />
-    <Content Include="css\bootstrap.css.map" />
-    <Content Include="css\bootstrap.min.css.map" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="css\bootstrap-grid.css.map" />
+    <Content Include="css\bootstrap-grid.min.css.map" />
+    <Content Include="css\bootstrap-reboot.css.map" />
+    <Content Include="css\bootstrap-reboot.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="js\bootstrap.bundle.js.map" />
+    <Content Include="js\bootstrap.bundle.min.js.map" />
+    <Content Include="js\bootstrap.js.map" />
+    <Content Include="js\bootstrap.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
